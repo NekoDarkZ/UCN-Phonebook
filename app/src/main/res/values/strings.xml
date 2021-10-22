@@ -2,4 +2,6 @@
   <string name="app_name">UCN Phonebook</string>
   <string name="acra_dialog_title">CRASH</string>
   <string name="acra_dialog_comment">Sorry, the application crashed.\nPlease send a report to the developers.\n</string>
+  <string name="app_title">@string/app_name</string>
+  <string name="app_subtitle">Universidad Católica del Norte</string>
 </resources>

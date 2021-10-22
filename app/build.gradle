@@ -52,6 +52,7 @@ android {
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.3.1'
+    //Material Style: https://material.io/design
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
     testImplementation 'junit:junit:4.+'
@@ -61,12 +62,9 @@ dependencies {
     // debugImplementation because LeakCanary should only run in debug builds.
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.7'
 
-    //ACRA email
+    //ACRA stuff
     implementation("ch.acra:acra-mail:5.8.4")
-    //ACRA dialog
     implementation("ch.acra:acra-dialog:5.8.4")
-    //ACRA notification
-    implementation("ch.acra:acra-notification:5.8.4")
-    //ACRA toast
-    implementation("ch.acra:acra-toast:5.8.4")
+    //implementation("ch.acra:acra-notification:5.8.4")
+    //implementation("ch.acra:acra-toast:5.8.4")
 }

@@ -13,4 +13,11 @@
     <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
     <!-- Customize your theme here. -->
   </style>
+
+  <!-- The toolbar theme. -->
+  <style name="Theme.Directorio.Toolbar" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <item name="android:background">@color/toolbarBackground</item>
+    <item name="android:title">@color/toolbarTitleColor</item>
+    <item name="android:subtitle">@color/toolbarSubtitleColor</item>
+  </style>
 </resources>
