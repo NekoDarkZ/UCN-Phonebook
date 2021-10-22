@@ -7,7 +7,6 @@ import org.acra.*;
 import org.acra.annotation.*;
 import org.acra.config.CoreConfigurationBuilder;
 import org.acra.config.DialogConfigurationBuilder;
-import org.acra.config.MailSenderConfiguration;
 import org.acra.config.MailSenderConfigurationBuilder;
 import org.acra.data.StringFormat;
 
