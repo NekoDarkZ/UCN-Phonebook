@@ -268,5 +268,155 @@
     "telefono": "Fono (55) 2355002",
     "oficina": "Pab. L Oficina: 306",
     "direccion": "Avenida Angamos 0610, Antofagasta - Chile"
+  },
+  {
+    "id": 226,
+    "nombre": "Jorge Alberto Enrique Tabilo Alvarez",
+    "cargo": "Académico",
+    "unidad": "Facultad de Ingeniería y Ciencias Geológicas",
+    "email": "jtabilo@ucn.cl",
+    "telefono": "Fono (55) 2355002",
+    "oficina": "Pab. L Oficina: 306",
+    "direccion": "Avenida Angamos 0610, Antofagasta - Chile"
+  },
+  {
+    "id": 227,
+    "nombre": "Slavko Pedro Stijepcic Grossi",
+    "cargo": "Guardia de Seguridad",
+    "unidad": "Dirección de Servicios",
+    "email": "sstijepc@ucn.cl",
+    "telefono": "",
+    "oficina": "",
+    "direccion": "Avenida Angamos 0610, Antofagasta - Chile"
+  },
+  {
+    "id": 228,
+    "nombre": "Raul Enrique Carrasco Cea",
+    "cargo": "Académico",
+    "unidad": "Escuela de Ingeniería",
+    "email": "rcarrasc@ucn.cl",
+    "telefono": "Fono (51) 2206877",
+    "oficina": "EDIF. X / OF. 310",
+    "direccion": "Larrondo N° 1281, Coquimbo - Chile"
+  },
+  {
+    "id": 232,
+    "nombre": "Alex Milton Covarrubias Aranda",
+    "cargo": "Director de Departamento",
+    "unidad": "Facultad de Ciencias de Ingeniería y Construcción",
+    "email": "acovarru@ucn.cl",
+    "telefono": "Fono (55) 2355425",
+    "oficina": "Pab. G",
+    "direccion": "Avenida Angamos 0610, Antofagasta - Chile"
+  },
+  {
+    "id": 233,
+    "nombre": "Miguel Gabriel Murphy Gonzalez",
+    "cargo": "Académico",
+    "unidad": "Facultad de Ciencias",
+    "email": "mmurphy@ucn.cl",
+    "telefono": "Fono (55) 23555514",
+    "oficina": "Pab. J",
+    "direccion": "Avenida Angamos 0610, Antofagasta - Chile"
+  },
+  {
+    "id": 236,
+    "nombre": "Gary Rockey Diaz Gonzalez",
+    "cargo": "Jefe de Oficina Servicios Docentes",
+    "unidad": "Facultad de Ciencias del Mar",
+    "email": "serdoc@ucn.cl",
+    "telefono": "Fono (51) 2209743",
+    "oficina": "EDIF. U / OF. 110",
+    "direccion": "Larrondo N° 1281, Coquimbo - Chile"
+  },
+  {
+    "id": 238,
+    "nombre": "Jaime Patricio Gonzalez Gonzalez",
+    "cargo": "Jefe de Oficina Área de Mar",
+    "unidad": "Facultad de Ciencias del Mar",
+    "email": "pg@ucn.cl",
+    "telefono": "Fono (51) 2209740",
+    "oficina": "EDIF. S2 /",
+    "direccion": "Larrondo N° 1281, Coquimbo - Chile"
+  },
+  {
+    "id": 239,
+    "nombre": "Juan Emilio Macchiavello Armengol",
+    "cargo": "Decano",
+    "unidad": "Facultad de Ciencias del Mar",
+    "email": "jmacchia@ucn.cl",
+    "telefono": "Fono (51)2209735",
+    "oficina": "Edif. J, of. 221",
+    "direccion": "Larrondo N° 1281, Coquimbo - Chile"
+  },
+  {
+    "id": 242,
+    "nombre": "Maria Soledad Bembow Seguel",
+    "cargo": "Académica",
+    "unidad": "Facultad de Ingeniería y Ciencias Geológicas",
+    "email": "mbembow@ucn.cl",
+    "telefono": "Fono (55) 2355968",
+    "oficina": "Pab. W Ofic. 313",
+    "direccion": "Avenida Angamos 0610, Antofagasta - Chile"
+  },
+  {
+    "id": 245,
+    "nombre": "Oscar Orlando Rojas Cazaluade",
+    "cargo": "Director de Departamento",
+    "unidad": "Facultad de Ciencias de Ingeniería y Construcción",
+    "email": "orojas@ucn.cl",
+    "telefono": "Fono (55) 2355465",
+    "oficina": "Pab. H Ofic. 205",
+    "direccion": "Avenida Angamos 0610, Antofagasta - Chile"
+  },
+  {
+    "id": 251,
+    "nombre": "Raul Alberto Vera Contreras",
+    "cargo": "Encargado de Laboratorio",
+    "unidad": "Facultad de Ciencias del Mar",
+    "email": "rvera@ucn.cl",
+    "telefono": "Fono (51) 2209811",
+    "oficina": "EDIF. X / OF. 54",
+    "direccion": "Larrondo N° 1281, Coquimbo - Chile"
+  },
+  {
+    "id": 260,
+    "nombre": "Artemio Francisco Cortes Jofre",
+    "cargo": "Encargado de Laboratorio",
+    "unidad": "Facultad de Ingeniería y Ciencias Geológicas",
+    "email": "arcortes@ucn.cl",
+    "telefono": "Fono (55) 2355989",
+    "oficina": "Pab. U",
+    "direccion": "Avenida Angamos 0610, Antofagasta - Chile"
+  },
+  {
+    "id": 263,
+    "nombre": "Hector Juan Soza Pollman",
+    "cargo": "Académico",
+    "unidad": "Escuela de Ingeniería",
+    "email": "hsoza@ucn.cl",
+    "telefono": "Fono (51) 2209785",
+    "oficina": "Edif. X Of. 320",
+    "direccion": "Larrondo N° 1281, Coquimbo - Chile"
+  },
+  {
+    "id": 268,
+    "nombre": "Jorge Fernando Rojo Munoz",
+    "cargo": "Kinesiólogo",
+    "unidad": "Dirección General Estudiantil",
+    "email": "jrojo@ucn.cl",
+    "telefono": "Fono (55) 2355993",
+    "oficina": "Pab. M",
+    "direccion": "Avenida Angamos 0610, Antofagasta - Chile"
+  },
+  {
+    "id": 273,
+    "nombre": "Hector Ricardo Flores Gatica",
+    "cargo": "Académico",
+    "unidad": "Facultad de Ciencias del Mar",
+    "email": "hflores@ucn.cl",
+    "telefono": "Fono (51) 2209804",
+    "oficina": "EDIF. X OF. 47",
+    "direccion": "Larrondo N° 1281, Coquimbo - Chile"
   }
 ]
