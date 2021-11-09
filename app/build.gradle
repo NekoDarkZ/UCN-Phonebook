@@ -51,13 +51,17 @@ android {
 
 dependencies {
 
-    implementation 'androidx.appcompat:appcompat:1.3.1'
-    //Material Style: https://material.io/design
-    implementation 'com.google.android.material:material:1.4.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
-    testImplementation 'junit:junit:4.+'
+    //Testing
+    testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    //implementation 'androidx.appcompat:appcompat:1.3.1'
+    //Material Style: https://material.io/design
+    implementation 'com.google.android.material:material:1.5.0-alpha05'
+    //implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+
+
 
     // debugImplementation because LeakCanary should only run in debug builds.
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.7'
@@ -67,4 +71,11 @@ dependencies {
     implementation("ch.acra:acra-dialog:5.8.4")
     //implementation("ch.acra:acra-notification:5.8.4")
     //implementation("ch.acra:acra-toast:5.8.4")
+
+    // https://mvnrepository.com/artifact/org.projectlombok/lombok
+    compileOnly 'org.projectlombok:lombok:1.18.20'
+    annotationProcessor 'org.projectlombok:lombok:1.18.20'
+
+    // https://mvnrepository.com/artifact/com.google.code.gson/gson
+    implementation 'com.google.code.gson:gson:2.8.8'
 }

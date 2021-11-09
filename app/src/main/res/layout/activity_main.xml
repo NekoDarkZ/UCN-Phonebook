@@ -1,26 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:fitsSystemWindows="true"
     tools:context=".MainActivity">
 
-  <Toolbar
+  <com.google.android.material.appbar.AppBarLayout
       android:layout_width="match_parent"
-      android:layout_height="?actionBarSize"
-      android:minWidth="?actionBarSize"
-      android:elevation="4dp"
-      android:theme="@style/Theme.Directorio.Toolbar"
-      android:contentInsetStart="0dp"
-      android:contentInsetStartWithNavigation="0dp"
-      android:title="@string/app_title"
-      android:subtitle="@string/app_subtitle"/>
-
-  <TextView
-      android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="Hello World!" />
+      android:fitsSystemWindows="true"
+      app:liftOnScroll="true">
+  
+    <com.google.android.material.appbar.MaterialToolbar
+        style="@style/Widget.MaterialComponents.Toolbar.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:minWidth="?attr/actionBarSize"
+        android:contentInsetStart="0dp"
+        android:contentInsetStartWithNavigation="0dp"
+        app:layout_scrollFlags="scroll|enterAlways|snap"
+        app:title="@string/app_name"
+        app:subtitle="@string/app_subtitle"/>
 
-</LinearLayout>
+  </com.google.android.material.appbar.AppBarLayout>
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/am_rv_funcionarios"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scrollbars="vertical"
+      android:clipToPadding="false"
+      android:paddingTop="8dp"
+      android:paddingBottom="8dp"
+      tools:listitem="@layout/row_funcionario"
+      app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
